@@ -1,0 +1,22 @@
+extends ../layouts/common
+
+block content 
+    h1 Users
+    a.btn.btn-primary(href="/users/create") New   
+    form(action="/users/search", method="GET", class="d-flex")
+        input(type="text", name="q", class="form-control", value=values?values.q:"")
+        button(class="btn btn-primary ms-3") Search 
+
+    table.table
+        thead
+            tr
+                th(scope='col') Name
+                th(scope='col') Age
+                th(scope='col')
+        each user in users
+            tbody
+                tr
+                    td=user.name
+                    td=user.age
+                    td
+                        a.btn.btn-primary(href="/users/" + user.id) View
