@@ -1,69 +1,32 @@
 {
   "users": [
     {
-      "name": "dung",
-      "age": "19",
-      "id": "vgT60qShZ"
-    },
-    {
-      "name": "Chinh Do",
-      "age": "19",
-      "id": "HVsMD2rSN"
-    },
-    {
-      "name": "thang",
-      "age": "19",
-      "id": "x1wvvMyMA"
-    },
-    {
       "name": "Chinh",
       "age": "19",
-      "id": "sYSgKT6Mc"
+      "id": "sYSgKT6Mc",
+      "email": "chinh000529@gmail.com",
+      "password": "123"
     },
     {
-      "name": "fasfasgag",
-      "age": "22",
-      "id": "sazYVhdAM"
+      "name": "Hoang",
+      "age": "20",
+      "id": "sYSgKT7Ds",
+      "email": "hoangham26052000@yahoo.com",
+      "password": "123"
     },
     {
-      "name": "dung",
-      "age": "22",
-      "id": "7G--uoQWI"
+      "name": "Nga",
+      "age": "20",
+      "email": "nga2807@gmail.com",
+      "password": "123",
+      "id": "GtqiBSHdG"
     },
     {
-      "name": "dung",
-      "age": "19",
-      "id": "zlqVLRvN3"
-    },
-    {
-      "name": "thang",
-      "age": "22",
-      "id": "3w8_K1sgV"
-    },
-    {
-      "name": "Chinh Do",
-      "age": "19",
-      "id": "FGPUWskXJ"
-    },
-    {
-      "name": "Chinh",
-      "age": "22",
-      "id": "yuCmh2-Wr"
-    },
-    {
-      "name": "",
-      "age": "",
-      "id": "H7gZk78Wk"
-    },
-    {
-      "name": "thang",
-      "age": "19",
-      "id": "9Xd9IEXYF"
-    },
-    {
-      "name": "thang",
-      "age": "22",
-      "id": "aDDmCQTuG"
+      "name": "Đỗ",
+      "age": "20",
+      "email": "chinh000529@gmail.com",
+      "password": "123",
+      "id": "jRlDVYom4"
     }
   ]
 }

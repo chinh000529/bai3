@@ -7,10 +7,12 @@ block content
             tr
                 th(scope='col') Name
                 th(scope='col') Age
+                th(scope='col') Email
                 th(scope='col')
             tbody
                 tr
                     td=user.name
                     td=user.age
+                    td=user.email 
                     td
                         a.btn.btn-primary(href="/users") Back
