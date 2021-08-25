@@ -1,10 +1,11 @@
 require('dotenv').config();
 
 var express = require('express');
+var cookieParser = require('cookie-parser');
 
 var userRouter = require('./routers/user.router');
 var authRouter = require('./routers/auth.router');
-var cookieParser = require('cookie-parser');
+var productRouter = require('./routers/product.router');
 
 var authMiddleware = require('./middleware/auth.middleware');
 
@@ -27,6 +28,7 @@ app.get('/', function(req, res){
 
 app.use('/users', authMiddleware.requireAuth, userRouter);
 app.use('/auth', authRouter);
+app.use('/products', productRouter);
 
 app.listen(port, function(){
     console.log("hello world !!!");
