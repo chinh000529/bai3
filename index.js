@@ -28,7 +28,7 @@ app.get('/', function(req, res){
 
 app.use('/users', authMiddleware.requireAuth, userRouter);
 app.use('/auth', authRouter);
-app.use('/products', productRouter);
+app.use('/products', authMiddleware.requireAuth, productRouter);
 
 app.listen(port, function(){
     console.log("hello world !!!");
