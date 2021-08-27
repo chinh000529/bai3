@@ -26,8 +26,8 @@ module.exports.create = function(rep, res){
 };
 
 module.exports.get = function(req, res){
-    var id= req.params.id;
-    var user= db.get('users').find({id: id}).value();
+    var userId= req.params.userId;
+    var user= db.get('users').find({id: userId}).value();
     res.render('users/view', {
         user: user
     });
