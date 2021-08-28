@@ -3,6 +3,10 @@ require('dotenv').config();
 var express = require('express');
 var cookieParser = require('cookie-parser');
 
+var mongoose = require('mongoose');
+
+mongoose.connect(process.env.MONGO_URL);
+
 var userRouter = require('./routers/user.router');
 var authRouter = require('./routers/auth.router');
 var productRouter = require('./routers/product.router');
